@@ -25,7 +25,7 @@ echo "Hardhat toolbox installed."
 
 echo "Creating .env file..."
 read -p "Enter your private key: " PRIVATE_KEY
-echo "PRIVATE_KEY=$PRIVATE_KEY" > .env
+echo "PRIVATE_KEY=$PRIVATE_KEY" > .envc
 echo ".env file created."
 
 echo "Configuring Hardhat..."
